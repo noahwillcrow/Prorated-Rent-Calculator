@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prorated Rent Calculator</title>
+        <link rel="stylesheet" href="style.css" />
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    </head>
+    <body>
+        <input type="text" id="txtDaysInMonth" placeholder="Number of days" />
+        <br />
+        <input type="text" id="txtCostOfRent" placeholder="Rent" />
+
+        <br />
+        <br />
+        
+        <div id="renters">
+        </div>
+
+        <br />
+        <input type="button" id="btnAddRenter" value="Add renter" />
+
+        <br />
+        <br />
+
+        <input type="button" id="btnCalculate" value="Calculate" />
+
+        <br />
+
+        <div id="results">
+        </div>
+
+        <div class="template renterRow">
+            <input type="text" name="txtName" placeholder="Name" />
+            <input type="text" name="txtStartDay" placeholder="Start day" />
+            <input type="text" name="txtEndDay" placeholder="End day" />
+        </div>
+
+        <script type="text/javascript" src="calculator.js"></script>
+    </body>
+</html>

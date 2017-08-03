@@ -1,0 +1,36 @@
+body {
+    background: #202020;
+}
+
+hr {
+    background: #606060;
+    border: 1px solid #606060;
+}
+
+input[type=text] {
+    background: #404040;
+    border: none;
+    outline: none;
+    color: #d3d3d3;
+    padding: 2px;
+}
+
+input[type=button] {
+    background: #0066BB;
+    border: none;
+    outline: none;
+    color: #d3d3d3;
+    padding: 4px;
+    cursor: pointer;
+}
+    input[type=button]:hover {
+        background: #0088DD;
+    }
+
+.template {
+    display: none;
+}
+
+#results {
+    color: #e3e3e3;
+}
